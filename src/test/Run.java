@@ -1,5 +1,7 @@
 package test;
 
-public class Run {
+import org.w3c.dom.ls.LSOutput;
 
+public class Run {
+	LSOutput
 }
