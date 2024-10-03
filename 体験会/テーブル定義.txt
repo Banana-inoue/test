@@ -1,0 +1,14 @@
+CREATE TABLE shohin
+(
+    idno character(4) NOT NULL,
+    name character varying(100) NOT NULL,
+    kbn character varying(32) NOT NULL,
+    tanka integer,
+    torokubi date
+);
+
+INSERT INTO shohin VALUES ('0001','かぼちゃ','食品',100,'2024-10-03');
+INSERT INTO shohin VALUES ('0002','じゃがいも','食品',100,'2024-10-03');
+INSERT INTO shohin VALUES ('0003','ボールペン','文房具',100,'2024-10-03');
+INSERT INTO shohin VALUES ('0004','消しゴム','文房具',100,'2024-10-03');
+INSERT INTO shohin VALUES ('0005','アサヒスーパードライ','飲料',100,'2024-10-03');

@@ -1,0 +1,45 @@
+
+・PostgreSQL自体の操作
+
+データベース起動：
+brew services start postgresql@17
+
+データベース停止：
+brew services stop postgresql@17
+
+起動状況確認：
+brew services list
+
+PostgreSQL終了(必ず行うこと)
+¥q
+
+
+・データベースの操作
+
+データベース一覧：
+psql -l
+
+データベースに入る：
+psql 入りたいデータベース名
+
+データベースから出る：
+¥q
+
+テーブル一覧：
+¥dt
+
+
+・SQL文
+
+全商品の取得
+SELECT * FROM shohin;
+
+食品だけ抽出
+SELECT *
+FROM shohin
+WHERE kbn = '食品';
+
+
+
+
+
